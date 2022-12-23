@@ -9,6 +9,7 @@ import MainBody from "../components/MainBody";
 // npm install next-auth
 // npm install -D @tailwindcss/forms
 // npm install @heroicons/react
+// npm install react-hook-form
 
 export default function Home() {
   const router = useRouter();
