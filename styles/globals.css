@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .layer_link {
+        @apply hover:underline cursor-pointer
+    }
+}

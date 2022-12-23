@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Header from "../components/Header";
 
 export default function Home() {
   return (
@@ -6,9 +7,14 @@ export default function Home() {
       <Head>
         <title>Google v3</title>
       </Head>
-      <main>
-          Hello!
-      </main>
+
+      {/* Header */}
+      <Header />
+
+      {/* Body */}
+      <main></main>
+
+      {/* Footer */}
     </>
   );
 }
