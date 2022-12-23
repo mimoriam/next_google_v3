@@ -10,6 +10,7 @@ import MainBody from "../components/MainBody";
 // npm install -D @tailwindcss/forms
 // npm install @heroicons/react
 // npm install react-hook-form
+// npm i html-react-parser
 
 export default function Home() {
   const router = useRouter();

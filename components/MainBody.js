@@ -15,7 +15,7 @@ export default function MainBody() {
 
   const onSubmit = async (data) => {
     console.log(data);
-    await router.push(`/search?term=${data.searchBar.trim()}`);
+    await router.push(`/search?term=${data.searchBar.trim()}&searchType=all`);
   };
 
   return (
@@ -56,7 +56,9 @@ export default function MainBody() {
             </div>
           </div>
 
-          <p>{errors.searchBar?.message}</p>
+          <p className="mt-2 text-sm text-red-600">
+            {errors.searchBar?.message}
+          </p>
           <div className="flex items-center justify-center space-x-4 p-3">
             <input type="submit" value="Google Search" className="layer_btn" />
             <input
