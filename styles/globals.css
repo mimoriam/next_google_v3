@@ -3,7 +3,11 @@
 @tailwind utilities;
 
 @layer components {
-    .layer_link {
-        @apply hover:underline cursor-pointer
-    }
+  .layer_link {
+    @apply cursor-pointer hover:underline;
+  }
+
+  .layer_btn {
+    @apply rounded-md bg-[#f8f9fa] p-3 text-sm text-gray-800 hover:shadow-md hover:ring-1 hover:ring-gray-200 focus:outline-none active:ring-gray-300;
+  }
 }

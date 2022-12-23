@@ -20,7 +20,7 @@ export default function UserImage() {
 
   return (
     <>
-      <button onClick={signIn}>Sign in</button>
+      <button onClick={signIn} className="layer_btn bg-blue-500 text-white">Sign in</button>
     </>
   );
 }
